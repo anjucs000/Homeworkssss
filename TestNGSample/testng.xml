@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+<!--       <class name="com.obsqura.selenium.TestNGSample.BrowserCommands">
+      <methods>
+      <include name="verifyTitle"/>
+      </methods>
+      </class> -->
+     <!--  <class name="com.obsqura.selenium.TestNGSample.Locators">
+      <methods>
+      <include name ="locatingByClass"/>
+      <include name ="locateClass"/>
+      <include name ="locateByCSS"/>
+      </methods> -->
+<!--       </class> -->
+<class name="com.obsqura.selenium.TestNGSample.CheckBackgroundColor">
+<methods>
+<include name="getAttribute"/>
+</methods>
+</class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
