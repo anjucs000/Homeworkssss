@@ -15,10 +15,10 @@
       <include name ="locateByCSS"/>
       </methods> -->
 <!--       </class> -->
-<class name="com.obsqura.selenium.TestNGSample.CheckBackgroundColor">
-<methods>
+<class name="com.obsqura.selenium.TestNGSample.TestNGAnnotations">
+<!-- <methods>
 <include name="getAttribute"/>
-</methods>
+</methods> -->
 </class>
     </classes>
   </test> <!-- Test -->

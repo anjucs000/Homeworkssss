@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5832" started-at="2022-11-15T18:26:49Z" finished-at="2022-11-15T18:26:55Z">
+  <suite name="Suite" duration-ms="253" started-at="2022-11-16T20:50:51Z" finished-at="2022-11-16T20:50:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5832" started-at="2022-11-15T18:26:49Z" finished-at="2022-11-15T18:26:55Z">
-      <class name="com.obsqura.selenium.TestNGSample.SoftAssertSample">
-        <test-method status="PASS" signature="initialiseBrowser()[pri:0, instance:com.obsqura.selenium.TestNGSample.SoftAssertSample@4cf777e8]" name="initialiseBrowser" is-config="true" duration-ms="5637" started-at="2022-11-15T23:56:49Z" finished-at="2022-11-15T23:56:55Z">
+    <test name="Test" duration-ms="253" started-at="2022-11-16T20:50:51Z" finished-at="2022-11-16T20:50:51Z">
+      <class name="com.obsqura.selenium.TestNGSample.TestNGAnnotations">
+        <test-method status="PASS" signature="initialiseBrowser()[pri:0, instance:com.obsqura.selenium.TestNGSample.TestNGAnnotations@6500df86]" name="initialiseBrowser" is-config="true" duration-ms="6674" started-at="2022-11-17T02:20:44Z" finished-at="2022-11-17T02:20:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="softAssertMethod()[pri:0, instance:com.obsqura.selenium.TestNGSample.SoftAssertSample@4cf777e8]" name="softAssertMethod" duration-ms="32" started-at="2022-11-15T23:56:55Z" finished-at="2022-11-15T23:56:55Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.obsqura.selenium.TestNGSample.TestNGAnnotations@6500df86]" name="beforeTest" is-config="true" duration-ms="148" started-at="2022-11-17T02:20:51Z" finished-at="2022-11-17T02:20:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- softAssertMethod -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.obsqura.selenium.TestNGSample.SoftAssertSample@4cf777e8]" name="browserClose" is-config="true" duration-ms="132" started-at="2022-11-15T23:56:55Z" finished-at="2022-11-15T23:56:55Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.obsqura.selenium.TestNGSample.TestNGAnnotations@6500df86]" name="afterTest" is-config="true" duration-ms="83" started-at="2022-11-17T02:20:51Z" finished-at="2022-11-17T02:20:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- com.obsqura.selenium.TestNGSample.SoftAssertSample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.obsqura.selenium.TestNGSample.TestNGAnnotations@6500df86]" name="afterSuite" is-config="true" duration-ms="187" started-at="2022-11-17T02:20:51Z" finished-at="2022-11-17T02:20:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.obsqura.selenium.TestNGSample.TestNGAnnotations -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
