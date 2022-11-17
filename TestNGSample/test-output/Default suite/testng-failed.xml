@@ -3,13 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.obsqura.selenium.TestNGSample.SoftAssertSample">
+      <class name="com.obsqura.selenium.TestNGSample.TestNGAnnotations">
         <methods>
-          <include name="softAssertMethod"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
           <include name="browserClose"/>
           <include name="initialiseBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="testmethod"/>
         </methods>
-      </class> <!-- com.obsqura.selenium.TestNGSample.SoftAssertSample -->
+      </class> <!-- com.obsqura.selenium.TestNGSample.TestNGAnnotations -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -13,17 +13,17 @@ import org.testng.annotations.Test;
 public class Base {
 	public WebDriver driver;
 	
-	@BeforeSuite
+	@BeforeMethod
 	public void initialiseBrowser() {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\anjuc\\eclipse-workspace\\JUnitSample\\src\\main\\java\\Resources\\chromedriver.exe");	
 		driver=new ChromeDriver();
 		driver.get("https://selenium.obsqurazone.com/simple-form-demo.php");
-		driver.navigate().to("https://selenium.obsqurazone.com/form-submit.php");
+		//driver.navigate().to("https://selenium.obsqurazone.com/form-submit.php");
 		//driver.get("https://www.amazon.in/");
 		driver.manage().window().maximize(); //to maximise the window size
-		Assert.assertTrue(true);
+		//Assert.assertTrue(true);
 	}
-	//@AfterTest
+	@AfterMethod
 	public void browserClose() {
 		driver.close();
 	}

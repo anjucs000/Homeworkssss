@@ -15,7 +15,7 @@
       <include name ="locateByCSS"/>
       </methods> -->
 <!--       </class> -->
-<class name="com.obsqura.selenium.TestNGSample.TestNGAnnotations">
+<class name="com.obsqura.selenium.TestNGSample.FindElementsSample">
 <!-- <methods>
 <include name="getAttribute"/>
 </methods> -->
