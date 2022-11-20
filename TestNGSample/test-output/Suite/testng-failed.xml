@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="com.obsqura.selenium.TestNGSample.TestObsqSite">
+      <class name="com.obsqura.selenium.TestNGSample.RadioButtonCombinations">
         <methods>
           <include name="browserClose"/>
+          <include name="maleButtonSelected"/>
           <include name="initialiseBrowser"/>
-          <include name="checkText"/>
         </methods>
-      </class> <!-- com.obsqura.selenium.TestNGSample.TestObsqSite -->
+      </class> <!-- com.obsqura.selenium.TestNGSample.RadioButtonCombinations -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

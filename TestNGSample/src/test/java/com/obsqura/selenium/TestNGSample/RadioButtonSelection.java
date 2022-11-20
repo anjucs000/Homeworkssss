@@ -23,8 +23,9 @@ public class RadioButtonSelection extends Base {
 			if(actText.equals(expText)) {
 				flag=true;
 			}
+			Assert.assertTrue(flag);
 		}
-		Assert.assertTrue(flag);
+		Assert.assertTrue("Radio button is not displayed", radio1.isDisplayed());
 	}
 	@Test
 	public void radioButtonFemaleClick() {
