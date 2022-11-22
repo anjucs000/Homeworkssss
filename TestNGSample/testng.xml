@@ -15,10 +15,10 @@
       <include name ="locateByCSS"/>
       </methods> -->
 <!--       </class> -->
-<class name="com.obsqura.selenium.TestNGSample.RadioButtonCombinations">
-<!-- <methods>
-<include name="getAttribute"/>
-</methods> -->
+<class name="com.obsqura.selenium.TestNGSample.SelectByIndex">
+<methods>
+<include name="getOptionsMethod"/>
+</methods>
 </class>
     </classes>
   </test> <!-- Test -->

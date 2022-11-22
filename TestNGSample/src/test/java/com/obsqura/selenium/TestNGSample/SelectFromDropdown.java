@@ -14,7 +14,7 @@ public class SelectFromDropdown extends Base{
 		Select objselect=new Select(driver.findElement(By.xpath("//select[@id='single-input-field']")));
 		objselect.selectByVisibleText(inputText);
 		actualMsg=driver.findElement(By.xpath("//div[@id='message-one']")).getText();
-		Assert.assertEquals(actualMsg, expectedMsg, "Actual and input messages are not equal");
+		Assert.assertEquals(actualMsg, expectedMsg, inputText+" is not selected");
 	}
 
 }

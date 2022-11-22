@@ -14,7 +14,10 @@ public class DriverLoading {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\anjuc\\eclipse-workspace\\TestNGSample\\src\\main\\java\\Resources\\chromedriver.exe");
 		driver=new ChromeDriver();
 		//driver.get("https://www.amazon.in/");
-		driver.get("http://demo.guru99.com/test/ajax.html");
+		//driver.get("http://demo.guru99.com/test/ajax.html");
+		driver.get("https://www.tutorialspoint.com/selenium/selenium_automation_practice.htm");
+		driver.manage().window().maximize();
+	
 	}
 	@AfterMethod
 	public void driverQuit() {

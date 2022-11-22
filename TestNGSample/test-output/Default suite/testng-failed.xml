@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="homeWork.CheckRadioButtonGuru99Site">
+      <class name="homeWork.CheckBoxesTutorialsPointSite">
         <methods>
-          <include name="checkRadioButtonsSelected"/>
           <include name="InitializeBrowser"/>
+          <include name="checkBoxesSelectedOrNot"/>
           <include name="driverQuit"/>
         </methods>
-      </class> <!-- homeWork.CheckRadioButtonGuru99Site -->
+      </class> <!-- homeWork.CheckBoxesTutorialsPointSite -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
