@@ -15,7 +15,7 @@ public class Base {
 	
 	@BeforeMethod
 	public void initialiseBrowser() {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\anjuc\\eclipse-workspace\\JUnitSample\\src\\main\\java\\Resources\\chromedriver.exe");	
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\anjuc\\eclipse-workspace\\TestNGSample\\src\\main\\java\\Resources\\chromedriver.exe");	
 		driver=new ChromeDriver();
 		driver.get("https://selenium.obsqurazone.com/simple-form-demo.php");
 		//driver.navigate().to("https://selenium.obsqurazone.com/form-submit.php");

@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="149523" started-at="2022-11-22T17:39:09Z" finished-at="2022-11-22T17:41:39Z">
+  <suite name="Default suite" duration-ms="12796" started-at="2022-11-23T17:08:27Z" finished-at="2022-11-23T17:08:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="149523" started-at="2022-11-22T17:39:09Z" finished-at="2022-11-22T17:41:39Z">
-      <class name="homeWork.SelectAustraliaFromDropdownTutorialsPointSite">
-        <test-method status="PASS" signature="InitializeBrowser()[pri:0, instance:homeWork.SelectAustraliaFromDropdownTutorialsPointSite@4cf777e8]" name="InitializeBrowser" is-config="true" duration-ms="73393" started-at="2022-11-22T23:09:09Z" finished-at="2022-11-22T23:10:23Z">
+    <test name="Default test" duration-ms="12796" started-at="2022-11-23T17:08:27Z" finished-at="2022-11-23T17:08:40Z">
+      <class name="homeWork.MultiSelectObsquraSite">
+        <test-method status="PASS" signature="initialiseBrowser()[pri:0, instance:homeWork.MultiSelectObsquraSite@4cf777e8]" name="initialiseBrowser" is-config="true" duration-ms="8317" started-at="2022-11-23T22:38:27Z" finished-at="2022-11-23T22:38:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InitializeBrowser -->
-        <test-method status="PASS" signature="printAllElement()[pri:0, instance:homeWork.SelectAustraliaFromDropdownTutorialsPointSite@4cf777e8]" name="printAllElement" duration-ms="858" started-at="2022-11-22T23:10:23Z" finished-at="2022-11-22T23:10:24Z">
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="PASS" signature="multiSelectStates()[pri:0, instance:homeWork.MultiSelectObsquraSite@4cf777e8]" name="multiSelectStates" duration-ms="4262" started-at="2022-11-23T22:38:35Z" finished-at="2022-11-23T22:38:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printAllElement -->
-        <test-method status="PASS" signature="driverQuit()[pri:0, instance:homeWork.SelectAustraliaFromDropdownTutorialsPointSite@4cf777e8]" name="driverQuit" is-config="true" duration-ms="844" started-at="2022-11-22T23:10:24Z" finished-at="2022-11-22T23:10:24Z">
+        </test-method> <!-- multiSelectStates -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:homeWork.MultiSelectObsquraSite@4cf777e8]" name="browserClose" is-config="true" duration-ms="164" started-at="2022-11-23T22:38:39Z" finished-at="2022-11-23T22:38:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- driverQuit -->
-        <test-method status="PASS" signature="InitializeBrowser()[pri:0, instance:homeWork.SelectAustraliaFromDropdownTutorialsPointSite@4cf777e8]" name="InitializeBrowser" is-config="true" duration-ms="73194" started-at="2022-11-22T23:10:24Z" finished-at="2022-11-22T23:11:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InitializeBrowser -->
-        <test-method status="PASS" signature="selectAustralia()[pri:0, instance:homeWork.SelectAustraliaFromDropdownTutorialsPointSite@4cf777e8]" name="selectAustralia" duration-ms="430" started-at="2022-11-22T23:11:38Z" finished-at="2022-11-22T23:11:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectAustralia -->
-        <test-method status="PASS" signature="driverQuit()[pri:0, instance:homeWork.SelectAustraliaFromDropdownTutorialsPointSite@4cf777e8]" name="driverQuit" is-config="true" duration-ms="773" started-at="2022-11-22T23:11:38Z" finished-at="2022-11-22T23:11:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverQuit -->
-      </class> <!-- homeWork.SelectAustraliaFromDropdownTutorialsPointSite -->
+        </test-method> <!-- browserClose -->
+      </class> <!-- homeWork.MultiSelectObsquraSite -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

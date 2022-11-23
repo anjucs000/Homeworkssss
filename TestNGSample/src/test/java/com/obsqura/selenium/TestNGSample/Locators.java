@@ -65,5 +65,11 @@ public class Locators extends Base {
 	public void locatingXpathAll() {
 	driver.findElement(By.xpath("(//span[text()='All'])[2]")).click();
 	}
+	@Test
+	public void locateByLinkText() {
+		driver.navigate().to("https://selenium.obsqurazone.com/check-box-demo.php");
+		driver.findElement(By.linkText("Simple Form Demo")).click(); //element by full link text
+		driver.findElement(By.partialLinkText("Simple Form")).click();//getting element using partial text
+	}
 
 }
